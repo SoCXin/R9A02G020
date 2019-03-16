@@ -1,0 +1,35 @@
+{
+    "type":"MCU",
+    "name":"R9A02G020",
+    "title": "renesas R9A02G020 MCU",
+    "description":"renesas motor MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"RISC-V",
+        "Fmax":48,
+        "DMIPS": 50,
+        "CoreMark": 100
+    },
+    "manufacturer": {
+        "vendor":"renesas",
+        "homepage":"https://www.renesas.cn/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/R9A02G020.git"
+    },
+    "version":"1.0.0",
+    "series":["R9A02G020"],
+    "package":["QFN32","QFN24"],
+    "peripheral": ["ADC","PGA","DAC","I2C","SPI","UART"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "RISC-V","Andes N22",
+        "renesas",
+        "ADC","PGA","DAC","I2C","SPI","UART",
+        "5.5V","2.7V"
+    ]
+}
